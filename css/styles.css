@@ -1,0 +1,220 @@
+/* ---- reset ---- */
+
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+.formulario input[type='text'] {
+	padding: 20px;
+	border: none;
+	background: #fff;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .btn {
+	width: 100%;
+	border: none;
+	background: rgb(0, 0, 0);
+	color: #fff;
+	cursor: pointer;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .btn:hover {
+	background: #3e14b2;
+}
+
+.contenedorQR {
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats, .count-particles {
+    webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
+
+/* UTILIDADES */
+img
+{
+    max-width: 100%;
+}
+.contenedor
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+/* MIS ESTILOS */
+
+.containerHeader
+{
+    height: 100vh;
+    background-color: blue;
+    background: linear-gradient( 90deg , #3a47d5 0% , #00d2ff 100% );
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.containMain
+{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr) ;
+    width: 100%;
+    gap: 8rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.item h1
+{
+    font-weight: lighter;
+    line-height: 4rem;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+.item p
+{
+    font-size: 24px;
+    color:rgb(0, 0, 0);
+    line-height: 2rem;
+    margin: 2rem 0;
+}
+.item button
+{
+    width: 10rem;
+    height: 3rem;
+    background: transparent;
+    font-family: "Lato";
+    text-transform: uppercase;
+    color:#FFF;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+.item:nth-of-type(2)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAVEGACION */
+
+nav
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    padding: .5rem 0;
+}
+nav .contenedor 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor .containerL
+{
+    display: inherit;
+    align-items: center;
+}
+.containerL h2
+{
+    font-family: "Roboto";
+    font-size: 2rem;
+    color:#FFF;
+}
+.containerLinks
+{
+    margin-left: 4rem;
+}
+.containerLinks a
+{
+    margin-right: 2.5rem;
+    color:#FFF;
+    font-family: "Lato";
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.containerR
+{
+    display: inherit;
+    align-items: center;
+}
+.containerR button 
+{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    font-family: "Lato";
+    font-size: 1.2rem;
+    color:#FFF;
+    outline: none;
+    cursor: pointer;
+}
